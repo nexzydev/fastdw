@@ -2,7 +2,7 @@ import socket, requests
 
 s = socket.socket()         
  
-s.bind(('localhost', 8888 ))
+s.bind(('', 8888 ))
 s.listen(0)                 
  
 while True:
